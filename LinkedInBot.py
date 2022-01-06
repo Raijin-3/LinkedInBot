@@ -10,6 +10,7 @@ driver = webdriver.Chrome(executable_path= chrome_driver_path)
 
 driver.get(URL)
 
+#if you get security error then for manually proceding to next step you need time
 time.sleep(10)
 
 #------------------------------------Part1----------------------------
