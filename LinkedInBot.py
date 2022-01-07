@@ -45,8 +45,8 @@ states = {'Alabama':102240587,'Alaska':100290991,'Arizona':106032500,'Arkansas':
 new_url = "https://www.linkedin.com/login"
 driver.get(new_url)
 
-email_id = 'cihaki4700@veb34.com'
-password = 'nDJkHt3FtjKpGVe'
+email_id = 'your email'
+password = 'your password'
 
 username_searchBox = driver.find_elements_by_xpath('//*[@id="username"]')
 for item in username_searchBox:
